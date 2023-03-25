@@ -5,7 +5,7 @@
   "description": "TypeScript template action",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --newline lf",
     "format": "prettier --write '**/*.ts'",
     "format-check": "prettier --check '**/*.ts'",
     "lint": "eslint src/**/*.ts",
