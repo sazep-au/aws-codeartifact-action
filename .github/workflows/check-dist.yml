@@ -33,6 +33,8 @@ jobs:
 
       - name: Rebuild the dist/ directory
         run: |
+          node --version
+          npm --version
           npm run build
           npm run package
 
