@@ -1,9 +1,9 @@
 {
-  "name": "actions",
+  "name": "aws-codeartifact-action",
   "version": "0.0.0",
   "private": true,
   "description": "TypeScript template action",
-  "main": "lib/main.js",
+  "main": "dist/main.js",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write '**/*.ts'",
@@ -15,14 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sazep-au/actions.git"
+    "url": "git+https://github.com/sazep-au/aws-codeartifact-action.git"
   },
   "keywords": [
-    "actions",
-    "node",
-    "setup"
+    "github",
+    "action",
+    "aws",
+    "codeartifact"
   ],
-  "author": "",
+  "author": "Sazep Pty Ltd",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.10.0"
